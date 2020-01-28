@@ -26,6 +26,7 @@ h3{
     padding: 16px;
     text-align: center;
     background-color: #f1f1f1;
+    margin: 5px;
     
     
     
@@ -48,9 +49,9 @@ h3{
     opacity: 0.7;
   }
 
-  form-group{
+  .form-group{
     margin-top: 10px;
-    width: 50px;
+    
 
   }
 
