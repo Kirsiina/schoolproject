@@ -1,0 +1,11 @@
+.ui-breadcrumb{background-image: none;}
+.fanta{
+    font-family: 'Sofia';
+    background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+ }
