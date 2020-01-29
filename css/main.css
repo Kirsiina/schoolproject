@@ -165,3 +165,7 @@ footer.footer {
     height: auto;
     max-width: 100%;
   }
+
+  .comparisontable {
+    table-layout: fixed;
+  }
