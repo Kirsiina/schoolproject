@@ -161,6 +161,7 @@ footer.footer {
   color:aquamarine;
   }
 
-  .comparisontable {
-    table-layout: fixed;
+  .img {
+    height: auto;
+    max-width: 100%;
   }
