@@ -160,3 +160,7 @@ footer.footer {
   content: "->";
   color:aquamarine;
   }
+
+  .comparisontable {
+    table-layout: fixed;
+  }
