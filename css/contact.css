@@ -1,11 +1,7 @@
 .about-section{
   text-align: center;
 }
- header{
-   height: 50px;
-   font-size: 50px;
-   text-align: center;
- }
+ 
 
 h1{
   text-align: center;
@@ -18,7 +14,7 @@ h2{
 }
 h3{
   text-align: center;
-  margin: 5px;
+  
 }
 
 .card {
@@ -27,6 +23,7 @@ h3{
     text-align: center;
     background-color: #f1f1f1;
     margin: 5px;
+    margin-bottom: 40px;;
     
     
     
@@ -52,9 +49,12 @@ h3{
   .form-group{
     margin-top: 10px;
     
+    
 
   }
 
   .lead{
     text-align: center;
   }
+
+  
