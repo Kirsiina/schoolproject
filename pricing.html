@@ -2,20 +2,62 @@
 <html lang="en">
   <head>
 
-    <title>School project</title>
+    <title>Webneer - Web services for all</title>
 
     <meta charset="utf-8">
 
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
-
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://kit.fontawesome.com/5f0207882f.js"></script>
 
   </head>
   <body>
+
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+                <img src="img/logo.png" alt="">
+              </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Web hosting
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="product.html">Product details</a>
+                  <a class="dropdown-item" href="pricing.html">Pricing</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Web design
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="product.html">Product details</a>
+                  <a class="dropdown-item" href="pricing.html">Pricing</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     <!-- Package options -->
-    <div id="pricing" class="container">
+    <div id="pricing" class="container custom">
         <div class="pricing-header text-center">
             <h1>Pricing</h1>
             <p class="lead pb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae lacus quis massa volutpat eleifend. Nulla consectetur lorem vitae purus pulvinar, vel commodo felis euismod. Etiam mi tellus, imperdiet id rutrum eget, varius non nisi. Mauris vitae magna dignissim, ultricies metus a, auctor purus.</p>
@@ -108,39 +150,52 @@
     </div>
 
     <!-- Footer -->
-    <hr />
-    <footer class="pb-2">
+    <footer class="footer bg-dark">
         <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-sm-12">
-                    <p>
-                        Copyright 2020.
-                    </p>
-                    <span>
-                        <a href="#">Terms of Service</a>
-                        -
-                        <a href="#">Acceptable Usage Policy</a>
-                        -
-                        <a href="#">Privacy</a>
-                    </span>
-                </div>
-                <div class="col-md-4 col-sm-12 text-center pt-2">
-                    <div class="social-icons" >
-                        <a href="#" style="text-decoration: none;">
-                            <i class="fa fa-twitter-square fa-3x" alt="Twitter"></i>
-                        </a>
-                        <a href="#" style="text-decoration: none;">
-                            <i class="fa fa-envelope-square fa-3x" alt="Email"></i>
-                        </a>
-                        
-                        <a href="#" style="text-decoration: none;">
-                            <i class="fa fa-facebook-square fa-3x" alt="Facebook"></i>
-                        </a>
-                    </div>
-                </div>
+          <div class="row">
+            <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+              <ul class="list-inline mb-2">
+                <li class="list-inline-item">
+                  <a href="#">Home</a>
+                </li>
+                <li class="list-inline-item">&sdot;</li>
+                <li class="list-inline-item">
+                  <a href="#">Web hosting</a>
+                </li>
+                <li class="list-inline-item">&sdot;</li>
+                <li class="list-inline-item">
+                  <a href="#">Web design</a>
+                </li>
+                <li class="list-inline-item">&sdot;</li>
+                <li class="list-inline-item">
+                  <a href="#">Contact us</a>
+                </li>
+              </ul>
+              <p class="text-muted small mb-4 mb-lg-0">&copy; Webneer 2020. All Rights Reserved.<br>Disclaimer! This is not real company, this is only used for our studies.</p>
             </div>
+            <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+              <p class="text-muted">Follow us</p>
+              <ul class="list-inline mb-0">
+                <li class="list-inline-item mr-3">
+                  <a href="#">
+                    <i class="fab fa-facebook"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item mr-3">
+                  <a href="#">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-    </footer>
+      </footer>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
