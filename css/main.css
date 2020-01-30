@@ -88,6 +88,10 @@ footer.footer {
   height: 100vh;
 }
 
+blockquote p {
+    font-size: 0.7em !important;
+}
+
 @media (min-width: 40em) {
   .carousel-caption p {
     margin-bottom: 1.25rem;
